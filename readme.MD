@@ -2,6 +2,8 @@
 
 ## Exercise 1
 
+Generate a random number between n and m  and populate an array of that size with integers read from the keyboard. Find the maximum and minimum values in the array.
+
 ## Exercise 2
 
 Write a program that reads two integers n and m from the keyboard, where n is less than m. The program should generate all prime numbers between n and m, inclusive. Then, it should compute the product of all the prime numbers and display the result.

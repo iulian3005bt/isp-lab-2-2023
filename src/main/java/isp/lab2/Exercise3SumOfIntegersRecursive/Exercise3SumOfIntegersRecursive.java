@@ -11,7 +11,7 @@ public class Exercise3SumOfIntegersRecursive {
     public static int sumOfIntegers(int n) {
         return -1;
     }
-    
+
     public static void main(String[] args) {
         System.out.println(sumOfIntegers(5));
 

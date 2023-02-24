@@ -10,6 +10,8 @@ Write a program that reads two integers n and m from the keyboard, where n is le
 
 ## Exercise 3
 
+Write a program that takes an integer n as input and returns the sum of all positive integers from 1 to n. The program should use recursion to compute the sum.
+
 ## Exercise 4
 
 Implement an application that allows the user to search and find all the strings in a list that contain a specific substring. First, the user is asked to input all the strings, on one line, separated by comma (e.g. apples,computer,bread,tea,car). Next, the user is asked to input the substring to search for. The program should then display all the strings in the list that contain the specified substring.

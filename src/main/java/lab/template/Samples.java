@@ -16,7 +16,7 @@ public class Samples {
 
         //genereaza 10 numere aleatorii
         for (int i = 0; i < 10; i++) {
-            int randomNumber = rand.nextInt(100);
+            randomNumber = rand.nextInt(100);
             System.out.println("Numarul intreg aleatoriu generat este: " + randomNumber);
         }
 
@@ -149,7 +149,7 @@ public class Samples {
         stringTokenizer();
         convertStringToInteger();
         searchForSubstring();
-        createAVecotOfStrings()
+        createAVecotOfStrings();
     }
 
 }

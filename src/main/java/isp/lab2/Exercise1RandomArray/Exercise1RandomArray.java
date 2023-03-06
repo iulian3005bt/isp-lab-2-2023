@@ -2,7 +2,7 @@ package isp.lab2.Exercise1RandomArray;
 
 public class Exercise1RandomArray {
 
-    public static int[] getArrayOfRandomNumbers(int n, int min, int max) {
+    public static int[] getArrayOfRandomNumbers(int min, int max) {
         return null;
     }
 
@@ -12,7 +12,7 @@ public class Exercise1RandomArray {
 
     public static void main(String[] args) {
 
-        int[] a = getArrayOfRandomNumbers(10, 1, 100);
+        int[] a = getArrayOfRandomNumbers(1, 100);
         int[] mm = findMaxAndMin(a);
         System.out.println("Min is:"+mm[0]+" Max is:"+mm[1] );
     }

@@ -3,6 +3,10 @@ package lab.template;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ *  Sample code demonstrating some basic functions of Java.
+ *  @author mihai.hulea
+ */
 public class Samples {
 
     public static void randomNumber(){

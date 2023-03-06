@@ -1,9 +1,13 @@
 package isp.lab2.Exercise1RandomArray;
 
+import java.util.Random;
+
 public class Exercise1RandomArray {
 
-    public static int[] getArrayOfRandomNumbers(int min, int max) {
-        return null;
+    public static int[] getArrayOfRandomNumbers(int n) {
+        int[] array = new int[n];
+        //TODO: implement the logic to fill the array with random numbers
+        return array;
     }
 
     public static int[] findMaxAndMin(int[] array) {
@@ -12,7 +16,10 @@ public class Exercise1RandomArray {
 
     public static void main(String[] args) {
 
-        int[] a = getArrayOfRandomNumbers(1, 100);
+        Random random = new Random();
+        //genereaza numar random intre 10 si 100
+        int size = random.nextInt(91) + 10;
+        int[] a = getArrayOfRandomNumbers(size);
         int[] mm = findMaxAndMin(a);
         System.out.println("Min is:"+mm[0]+" Max is:"+mm[1] );
     }

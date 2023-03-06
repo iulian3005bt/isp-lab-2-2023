@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-Generate a random number between n and m  and populate an array of that size with integers read from the keyboard. Find the maximum and minimum values in the array.
+Generate a random number between 10 and 100  and populate an array of that size with random integers. Find the maximum and minimum values in the array.
 
 ## Exercise 2
 

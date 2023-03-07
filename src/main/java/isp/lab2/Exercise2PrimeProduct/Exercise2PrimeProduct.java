@@ -14,6 +14,7 @@ public class Exercise2PrimeProduct {
         return 0;
     }
 
+
     /**
      * This method should read from the console a number
      * @return the number read from the console

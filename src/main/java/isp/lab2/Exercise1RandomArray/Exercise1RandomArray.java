@@ -17,6 +17,7 @@ public class Exercise1RandomArray {
     public static void main(String[] args) {
 
         Random random = new Random();
+
         //genereaza numar random intre 10 si 100
         int size = random.nextInt(91) + 10;
         int[] a = getArrayOfRandomNumbers(size);

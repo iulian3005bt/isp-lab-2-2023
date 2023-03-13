@@ -11,7 +11,21 @@ public class Exercise2PrimeProduct {
      * @return
      */
     public static long getPrimeProduct(int n, int m) {
-        return 0;
+        int p = 1;
+        for (int j = n; j <= m; j++) {
+            int flag = 1;
+            for (int i = 2; i  <= j/2; i++) {
+                if (j % i == 0) {
+                    flag = 0;
+                    break;
+                }
+            }
+            if(flag == 1)
+                p = p * j;
+
+        }
+
+        return p;
     }
 
 

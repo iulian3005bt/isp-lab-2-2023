@@ -10,7 +10,16 @@ public class Exercise4StringSearch {
      * @return
      */
     public static String[] searchSubstrings(String input, String substring) {
-        return null;
+        String[] strArray = input.split(",");
+        String[] result = new String[strArray.length];
+        int j=0;
+        for(String string : strArray){
+            if (string.contains(substring)) {
+                result[j]=string;
+                j++;
+            }
+        }
+        return result;
     }
 
     public static String readFromConsoleInt() {
@@ -24,7 +33,10 @@ public class Exercise4StringSearch {
         String substring = "te";
         String[] result = searchSubstrings(input, substring);
         for (String string : result) {
-            System.out.println(string);
+            if(string ==null)
+                break;
+            else
+                System.out.println(string);
         }
     }
 }

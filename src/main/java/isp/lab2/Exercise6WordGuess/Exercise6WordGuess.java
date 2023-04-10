@@ -1,6 +1,6 @@
 package isp.lab2.Exercise6WordGuess;
 
-public class Exercise6WordGuess {
+public class    Exercise6WordGuess {
 
     /**
      * This method will return the number of occurrences of a character in a word
